@@ -48,5 +48,7 @@ function draw() {
 	stroke(0)
 	noFill()
 	textAlign(CENTER)
-	text("I'm lost in my mind.\nCan you \nHELP\n me?", canvasX / 2, canvasY / 3);	
+	text("I'm lost in my mind.\nCan you \n\n me?", canvasX / 2, canvasY / 3);
+	fill(color(200, 150, 0))
+	text("HELP", canvasX / 2, canvasY / 3 + textSize() * 2.5)
 }
